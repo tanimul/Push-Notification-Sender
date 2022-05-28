@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
 
                     token = it.result
                     Log.d(TAG, "onCreate: $token")
-                    MyFirebaseMessagingService.token = token
-
+                    //MyFirebaseMessagingService.token = token
+                    FirebaseMessaging.getInstance().subscribeToTopic("TEST_FUAD")
 
                 }
             }
