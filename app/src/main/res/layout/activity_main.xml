@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".ui.MainActivity">
 
     <TextView
@@ -29,27 +29,27 @@
         android:id="@+id/et_Notification"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginHorizontal="50dp"
+        android:layout_marginHorizontal="40dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/layout_edit_text_background"
-        android:hint="Message"
+        android:hint="Message (SERVER)"
         android:paddingStart="20dp" />
-
-    <Button
-        android:id="@+id/bt_send_message_fcm"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginHorizontal="50dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/layout_button_background"
-        android:text="Send Notification by FCM" />
 
     <Button
         android:id="@+id/bt_send_message_server"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginHorizontal="50dp"
+        android:layout_marginHorizontal="40dp"
         android:layout_marginTop="25dp"
         android:background="@drawable/layout_button_background"
         android:text="Send Notification by SERVER" />
+
+    <Button
+        android:id="@+id/bt_send_message_fcm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/layout_button_background"
+        android:text="Send Notification by FCM" />
 </LinearLayout>
