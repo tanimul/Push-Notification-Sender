@@ -32,7 +32,16 @@
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/layout_edit_text_background"
-        android:hint="Message (SERVER)"
+        android:hint="Title"
+        android:paddingStart="20dp" />
+    <EditText
+        android:id="@+id/et_Notification_desc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_edit_text_background"
+        android:hint="Message"
         android:paddingStart="20dp" />
 
     <Button
@@ -40,16 +49,8 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginHorizontal="40dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/layout_button_background"
         android:text="Send Notification by SERVER" />
 
-    <Button
-        android:id="@+id/bt_send_message_fcm"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginHorizontal="40dp"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/layout_button_background"
-        android:text="Send Notification by FCM" />
 </LinearLayout>
